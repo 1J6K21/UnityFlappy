@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.87058824, g: 0.84313726, b: 0.6, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -678,7 +678,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -915,7 +915,7 @@ Transform:
   m_GameObject: {fileID: 964519834}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1016,7 +1016,7 @@ Transform:
   m_GameObject: {fileID: 1345693079}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: -9.916621}
+  m_LocalPosition: {x: 3, y: -5, z: -9.916621}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1130,11 +1130,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55a9ad15d5fbe4499839f19ac1875e0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 229501600, guid: 652e74dca0ecc4a19a95fea1f1d8296f, type: 3}
+  - {fileID: 1348965943, guid: 652e74dca0ecc4a19a95fea1f1d8296f, type: 3}
+  - {fileID: -305962014, guid: 652e74dca0ecc4a19a95fea1f1d8296f, type: 3}
+  - {fileID: -1622993790, guid: 652e74dca0ecc4a19a95fea1f1d8296f, type: 3}
+  Medal: {fileID: 1513210683}
   coinsObtained: 0
   coinsText: {fileID: 1366424823}
   playerScore: 0
   scoreText: {fileID: 620208910}
   gameOverScreen: {fileID: 1631152119}
+  endScoreText: {fileID: 1459119715}
+  bestScoreText: {fileID: 121476383}
 --- !u!4 &1385460373
 Transform:
   m_ObjectHideFlags: 0

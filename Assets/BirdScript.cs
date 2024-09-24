@@ -40,7 +40,7 @@ public class BirdScript : MonoBehaviour
             }
             
 
-            if(transform.position.y > 1 || transform.position.y < -1){
+            if(transform.position.y > -4 || transform.position.y < -6){
                 logic.GameOver();
                 birdIsAlive = false;
             }

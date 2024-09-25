@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PipeMoveScript : MonoBehaviour
+public class BackgroundMoveScript : MonoBehaviour
 {
-    public float moveSpeed = 0.7F;//default value
-    float deadZone = -2.3F;
+    public float moveSpeed = 0.35F;//default value
+    float deadZone = -4F;
     // Start is called before the first frame update
     void Start()
     {

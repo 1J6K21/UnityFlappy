@@ -7,7 +7,7 @@ public class PipeSpawnScript : MonoBehaviour
 {
     public GameObject coinPipe;
     public GameObject pipe;
-    public float spawnRate = 2;
+    public float spawnRate = 1.5F;
     public float timer = 0;
     float heightOffset = 0.5F;
 

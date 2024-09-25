@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using Microsoft.Unity.VisualStudio.Editor;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -21,6 +22,7 @@ public class BirdScript : MonoBehaviour
     void Start()
     {
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>(); //sets logic to the first gameobject of type logicScript under logic
+        logic.StartNums();
 
         spriteRenderer = GetComponent<SpriteRenderer>(); //set the renderer to the renderer of the bird(will render which sprite is picked)
 
